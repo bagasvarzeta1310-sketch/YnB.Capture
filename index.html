@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YnB.Capture | Photography & Videography</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">YnB.Capture</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="hero-content">
+            <h1>Visualizing Your Moments</h1>
+            <p>Professional Photography & Videography Services</p>
+            <a href="https://www.instagram.com/ynb.capture_/?utm_source=ig_web_button_share_sheet" target="_blank" class="btn">Visit Instagram</a>
+        </div>
+    </header>
+
+    <section id="gallery">
+        <h2>Our Work</h2>
+        
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="photo">Photography</button>
+            <button class="filter-btn" data-filter="video">Videography</button>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item photo">
+                <img src="img/placeholder1.jpg" alt="Photography 1">
+            </div>
+            
+            <div class="gallery-item video">
+                <video src="video/placeholder1.mp4" controls muted></video>
+            </div>
+            
+            </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2026 YnB.Capture. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/ynb.capture_/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://cahyarama.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnUf56eVeBOpPkX1mWYG6vomq9v_uIxQVpgPMYiCG4vHVuejT-tdi9itK1ctM_aem_ClviFw9_IuE8FxEt7W6hMw" target="_blank"><i class="fas fa-globe"></i></a>
+        </div>
+    </footer>
+
+    <audio id="bg-music" loop>
+        <source src="audio/backsound.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+
+    <button id="music-toggle" class="music-btn">
+        <i class="fas fa-play"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
